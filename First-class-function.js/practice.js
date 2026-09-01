@@ -19,14 +19,50 @@
 // add function-কে calculate()-এর argument হিসেবে পাঠাবে।
 // calculate() এর ভিতরে operation ব্যবহার করে দুইটি number-এর যোগফল বের করবে।
 
-function add(a,b){
-    return a + b;
+// function add(a,b){
+//     return a + b;
+// }
+
+// function calculate(a,b, operation){
+//     return operation(a,b)
+// }
+
+// const result = calculate(10,20,add)
+
+// console.log(result);
+
+// function sayHello() {
+//     console.log("Hello");
+// }
+
+// function execute(fn) {
+//     fn();
+// }
+
+// execute("say hello")
+
+
+// function sayBye(){
+//     console.log("Good Bye");
+// }
+
+// function runFunction(fn){
+//     fn();
+// }
+
+// runFunction(sayBye)
+
+
+function double(number) {
+    let SumDuble = number * 2;
+
+    return SumDuble;
 }
 
-function calculate(a,b, operation){
-    return operation(a,b)
+function calculate(number, operation) {
+    return operation(number);
 }
 
-const result = calculate(10,20,add)
+const result = calculate(10, double);
 
 console.log(result);
