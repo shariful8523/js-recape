@@ -27,17 +27,35 @@
 // as a argument, and amder return korte have total cost.
 
 
-function billCalculator(...rest){
+// function billCalculator(...rest){
 
-    let sum = 0;
+//     let sum = 0;
        
-      for (let i = 0; i < rest.length; i++){
-          sum = sum + rest[i];
-      }
+//       for (let i = 0; i < rest.length; i++){
+//           sum = sum + rest[i];
+//       }
 
-      return sum;
+//       return sum;
+// };
+
+// let result = billCalculator(100,599,200,503,200);
+
+// console.log(result);
+
+
+// problem 3
+
+// check the password length and return the result-
+// rules - 1. if password length is greater than 8 return "strong"
+// 2. if password length is smaller than 8 return "weak";
+
+
+let checkPasswordStrength = (password) => {
+    if (password.length > 8) return " strong password";
+
+    return "week password";
 };
 
-let result = billCalculator(100,599,200,503,200);
+let result = checkPasswordStrength("dtdyud");
 
 console.log(result);

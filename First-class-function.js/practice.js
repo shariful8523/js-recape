@@ -53,16 +53,64 @@
 // runFunction(sayBye)
 
 
-function double(number) {
-    let SumDuble = number * 2;
+// function double(number) {
+//     let SumDuble = number * 2;
 
-    return SumDuble;
-}
+//     return SumDuble;
+// }
 
-function calculate(number, operation) {
-    return operation(number);
-}
+// function calculate(number, operation) {
+//     return operation(number);
+// }
 
-const result = calculate(10, double);
+// const result = calculate(10, double);
 
-console.log(result);
+// console.log(result);
+
+
+// function triple(number) {
+//     let sumTriple = number * 3;
+
+//     return sumTriple;
+// }
+
+// function execute(number, operation) {
+//     return operation(number);
+// }
+
+// const result = execute(5, triple);
+
+// console.log(result);
+
+
+
+// function square(number) {
+//     let sumSquare = number * number;
+
+//     return sumSquare;
+// }
+
+
+// function calculate(number, operation) {
+//     return operation(number);
+// }
+
+
+// const result = calculate(6, square);
+
+// console.log(result);
+
+
+
+// function sayHello(){
+//     console.log("hello");
+// }
+
+// function execute(callback){
+//     callback();
+// }
+
+// execute(sayHello)
+
+
+
