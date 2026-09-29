@@ -59,4 +59,18 @@
 // }, 3000);
 
 
+// Event loop
+
+
+// console.log("A");
+
+// function test() {
+//     console.log("B");
+// }
+
+// test();
+
+// console.log("C");
+
+
 
