@@ -104,3 +104,15 @@
 
 // test`Product price: ${price} BDT`;
 
+// ====================Default Parameters===================
+
+
+// const field = "email";
+// const value = "rahim@example.com";
+
+// const profile = {
+//     [field] : `${value}`,
+    
+// }
+
+// console.log(profile);
