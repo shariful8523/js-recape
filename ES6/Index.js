@@ -58,3 +58,49 @@
 
 
 // console.log(result);
+
+
+//=====================Template Literals======================
+
+// const product = "Laptop";
+// const price = 75000;
+
+// const message = `The product is ${product} and its price is ${price} BDT.`;
+
+// console.log(message);
+
+
+
+// const product = "Phone";
+// const price = 20000;
+// const quantity = 3;
+
+
+// const message = `You bought ${quantity + product}. Total price: ${price} BDT.`;
+
+// console.log(message);
+
+
+// const name = "Rahim";
+// const age = 25;
+// const profession = "Web Developer";
+
+// const message = ` Name: ${name}.
+// Age: ${age}.
+// profession: ${profession}.
+
+// `;
+
+// console.log(message);
+
+
+
+// function test(strings, value) {
+//     console.log(strings);
+//     console.log(value);
+// }
+
+// const price = 500;
+
+// test`Product price: ${price} BDT`;
+
