@@ -139,17 +139,39 @@
 
 
 
-const studentAverage = (name, ...marks) => {
-    let total = 0;
+// const studentAverage = (name, ...marks) => {
+//     let total = 0;
 
-    for (let mark of marks) {
-        total += mark;
-    }
+//     for (let mark of marks) {
+//         total += mark;
+//     }
 
-    const average = total / marks.length;
+//     const average = total / marks.length;
 
-    return `${name}'s average marks: ${average}`;
-};
+//     return `${name}'s average marks: ${average}`;
+// };
 
-console.log(studentAverage("Rahim"));
+// console.log(studentAverage("Rahim"));
+
+
+
+//======================Spread operator===================
+
+
+
+// const fruits1 = ["Apple", "Mango"];
+// const fruits2 = ["Banana", "Orange"];
+
+// console.log([ ...fruits1, ...fruits2 ]);
+
+
+//=====================Destructuring====================
+
+// const languages = ["JavaScript", "Python", "Java", "C++"];
+
+// const [ JavaScript,  ,Java] = languages;
+
+// console.log(JavaScript, Java);
+
+
 
