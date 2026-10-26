@@ -233,3 +233,40 @@
 //   { name: "Laptop", stock: 12 }
 // ])
 
+
+
+
+// var containsDuplicate = function(nums) {
+//   for (let i = 0; i < nums.length; i++) {
+//     for (let j = i + 1; j < nums.length; j++) {
+//       if (nums[i] === nums[j]) {
+//         return true;
+//       }
+//     }
+//   }
+
+//   return false;
+// }
+
+
+
+// console.log(integerArray([1, 2, 3, 4]));
+
+
+var containsDuplicate = function(nums) {
+    const seen = new Set();
+
+    for (let i = 0; i < nums.length; i++) {
+        if (seen.has(nums[i])) {
+            return true;
+        }
+
+        seen.add(nums[i]);
+    }
+
+    return false;
+};
+
+containsDuplicate([1, 2, 3, 1]); // true
+
+containsDuplicate([1, 2, 3, 4]); // false
