@@ -1,0 +1,27 @@
+
+
+// create a object 
+
+// const user ={
+//     name : "shariful",
+//     age : 20,
+//     isSingle : true,
+      
+// }
+
+
+// create a class 
+
+class person {
+    first_name='shariful'
+    last_name='islam'
+
+    //method
+
+    getName(){
+        return (`The name of the person is ${this.first_name} ${this.last_name}`)
+    }
+}
+
+const person1 = new person();
+console.log(person1.getName());
