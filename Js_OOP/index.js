@@ -1,45 +1,66 @@
 
 
-// // create a object 
+// // // create a object 
 
-// // const user ={
-// //     name : "shariful",
-// //     age : 20,
-// //     isSingle : true,
+// // // const user ={
+// // //     name : "shariful",
+// // //     age : 20,
+// // //     isSingle : true,
       
+// // // }
+
+
+// // // create a class 
+
+// // class person {
+// //     first_name='shariful'
+// //     last_name='islam'
+
+// //     //method
+
+// //     getName(){
+// //         return (`The name of the person is ${this.first_name} ${this.last_name}`)
+// //     }
 // // }
 
+// // const person1 = new person();
+// // console.log(person1.getName());
 
-// // create a class 
+
+
+// //  constructor parameter
 
 // class person {
-//     first_name='shariful'
-//     last_name='islam'
 
-//     //method
+//     constructor(num1,num2){
+//         let sum = num1 + num2;
 
-//     getName(){
-//         return (`The name of the person is ${this.first_name} ${this.last_name}`)
+//         console.log(sum);
+
 //     }
 // }
 
-// const person1 = new person();
-// console.log(person1.getName());
 
+// const person1 = new person(10,20); 
 
+// Inheritance
 
-//  constructor parameter
+class Father {
 
-class person {
+    name ="shariful"
+    age = 22
 
-    constructor(num1,num2){
-        let sum = num1 + num2;
-
-        console.log(sum);
-
+    getName(){
+        return (`My Father name is ${this.name}. my Father age is ${this.age}`)
     }
+
 }
 
+class soon extends Father{
 
-const person1 = new person(10,20); 
+}
+
+let newobj = new soon();
+
+console.log(newobj);
 
